@@ -4,14 +4,19 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[How we code](./how_we_code.html).
 
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# How we code
 
+[How we code](./how_we_code.html).
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+# Engineering excellence strategy
+
+[Engineering excellence strategy](./engineering_excellence_strategy.html).
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
 ## Header 2
