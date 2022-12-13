@@ -1,2 +1,2 @@
 # LiquidX-Studio.github.io
-LiquidX studio engineering blog
+LiquidX studio engineering blog.
