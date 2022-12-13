@@ -59,3 +59,5 @@ QA team will have adequate time to decide whether the software meets the release
 | 1        | Major incident     | One or more major features unavailable - no workarounds   | 1 Hours       |
 | 2        | Minor incident     | One or more major features unavailable - with workarounds | 24 Hours      |
  | 3        | User-reported bugs | Issues impacting one or more users                        | 48 Hours      |
+
+[back](./)

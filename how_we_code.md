@@ -124,4 +124,7 @@ Only in case of a __critical__ or a __major production incident__ ([see our SLA 
 
 # References
 - [Trunk-based development](https://trunkbaseddevelopment.com/continuous-integration/)
-- [Software development with feature toggles: practices used by practitioners](https://arxiv.org/pdf/1907.06157.pdf) 
+- [Software development with feature toggles: practices used by practitioners](https://arxiv.org/pdf/1907.06157.pdf)
+
+
+  [back](./)
