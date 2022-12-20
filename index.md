@@ -12,6 +12,6 @@ Engineering handbook provides a concrete set of guidelines that describe how an 
 
 The concrete steps and SOP that we follow stem from a set of strategies that aim to improve the efficiency of our LiquidX studio as a tech organization. [Read article](./engineering_excellence_strategy.html).
 
-```
-The final element.
-```
+# LiquidX Studio Tech Stack
+
+LiquidX studio focuses on building smart contracts, web apps, services that cater to our NFT holders and game players.  [Read article](./liquidx_tech_stack.html).
