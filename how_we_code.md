@@ -19,7 +19,7 @@ Before the coding starts for a new product or feature, do the following:
 
 # 1. Single source of truth
 We follow the Trunk-Based development model for version control and have a single source of truth for all software components and modules.  
-![img](./img/trunkBasedDevelopment.png)
+![img](./img/trunkBasedDevelopment.jpeg)
 
 ## Key concepts
 - Developers collaborate on the Trunk or the main branch
