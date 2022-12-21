@@ -41,14 +41,26 @@ For building the web apps and services we primarily use Typescript for the follo
 
 Besides Typescript, we use Solidity for writing smart contracts.
 
-# Repository
+## Tools of the trade
+- Package manager: [yarn](https://yarnpkg.com/) for package management
+- Static analysis: We use [Prettier](https://prettier.io/) and [ESLint](https://typescript-eslint.io/) for type-checking and formatting the source code
+- Unit testing: [Jest](https://jestjs.io/) to implement $>= 95%$ of coverage
+
+## Libraries
+- Backend services development: [NestJs](https://nestjs.com/)
+- Frontend UI/UX development: [ReactJs](https://reactjs.org/)
+
+# Code repository
+We have chosen [Github](https://github.com) for storing our codebase.  Our code lives on a main branch with a trunk-based model.  The pull-requests to update the main branch abide by the branch protection rules that specify the number of required reviewers and allows us to connect the CI/CD workflows that run the unit tests to preserve code coverage.
 
 # Infrastructure
+We have chosen to use [AWS](https://aws.amazon.com/) public cloud to host our services.
 
 # Storage
-We have chosen to use Postgresql to store the data for the apps and services.
+The type of apps we aim to develop do not require complex storage solutions or large-scale data IO operations.  We have chosen to use the managed Postgresql database provided by the AWS.
 
-# CI/CD
+# Continuous Integration and Continuous Delivery
+We follow the GitOps model of building the CI/CD pipeline where the 
 
 
 [back](./)
