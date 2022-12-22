@@ -44,7 +44,7 @@ Besides Typescript, we use Solidity for writing smart contracts.
 ## Tools of the trade
 - Package manager: [yarn](https://yarnpkg.com/) for package management
 - Static analysis: We use [Prettier](https://prettier.io/) and [ESLint](https://typescript-eslint.io/) for type-checking and formatting the source code
-- Unit testing: [Jest](https://jestjs.io/) to implement $>= 95%$ of coverage
+- Unit testing: [Jest](https://jestjs.io/) to implement $>= 95%$ of code coverage
 
 ## Libraries
 - Backend services development: [NestJs](https://nestjs.com/)
@@ -60,7 +60,10 @@ We have chosen to use [AWS](https://aws.amazon.com/) public cloud to host our se
 The type of apps we aim to develop do not require complex storage solutions or large-scale data IO operations.  We have chosen to use the managed Postgresql database provided by the AWS.
 
 # Continuous Integration and Continuous Delivery
-We follow the GitOps model of building the CI/CD pipeline where the 
+
+![image](./img/ci_cd_pipeline.png)
+
+We follow the GitOps model of building the CI/CD pipeline.  When a change is made within our main branch the CircleCI workflow pipeline is triggered.  That pipeline builds the app image which is downloaded by ArgoCD server to the Kubernetes container. 
 
 
 [back](./)

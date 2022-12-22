@@ -4,8 +4,6 @@ title: How we code
 description: LiquidX engineering process and practices
 ---
 
-![image](./img/LiquidXLogo.png)
-
 # How should you use this engineering handbook?
 The process described here is largely driven by the strategy described in our [Engineering excellence strategy](./EngineeringExcellenceStrategy.md).
 All engineers at LiquidX studio are *required* to follow the instructions included in this handbook.  __Any__ deviation from this engineering process requires *prior* approval from the head of engineering.
