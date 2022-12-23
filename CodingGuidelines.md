@@ -2,9 +2,6 @@
 # Coding Guide
 Our goal is to write clean code that is robust, extensible, and easy to read and understand.
 
-## Typescript and Javascript (Front-end, Backend development)
-- 
-
 ## Solidity (smart contract development)
 - Use established and well-tested libraries whenever possible (e.g., OpenZeppelin for Solidity smart contracts) to avoid code clones.
 - Ensure that the code compiles without any warnings and errors. Provide the exact instructions for building the project and include any implicit dependencies and their versions (e.g., the npm version).
